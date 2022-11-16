@@ -1,0 +1,334 @@
+@font-face {
+    font-family: Adobe Heiti Std; /* Гарнитура шрифта */
+    src: local(AdobeHeitiStd-Regular), 
+    url("C:\\Users\\nikit\\OneDrive\\Документы\\WEBTECH1\\cv1\\fonts\\AdobeHeitiStd-Regular.woff") format("woff"),
+    url("C:\\Users\\nikit\\OneDrive\\Документы\\WEBTECH1\\cv1\\fonts\\AdobeHeitiStd-Regular.woff2") format("woff2");
+   }
+@font-face {
+font-family: Bradley Hand ITC; /* Гарнитура шрифта */
+src: local(BRADHITC), 
+url("C:\\Users\\nikit\\OneDrive\\Документы\\WEBTECH1\\cv1\\fonts\\BRADHITC.woff") format("woff"), 
+url("C:\\Users\\nikit\\OneDrive\\Документы\\WEBTECH1\\cv1\\fonts\\BRADHITC.woff2") format("woff2");
+}
+@font-face{
+    font-family: Arial Unicode;
+    src:  local(ARIALUNI),
+    url("fonts/ARIALUNI.woff") format("woff"),
+}
+.avatar{
+    height: 407px;
+    width: 307px;
+    float: left;
+    margin-left: 4%;
+    margin-top: 4%;
+    margin-bottom: 0%;
+    margin-right: 2%;
+    position: static;
+    color: #2E54A8;
+    font-family: Bradley Hand ITC;
+    font-size:150% ;
+}
+.avatar img{
+    height: 308px;
+    width: 250px;
+    position: relative;
+    left: 10%;
+    z-index: 1;
+}
+
+body{
+    font-family: Arial Unicode;
+    font-size: 120%;
+    width: auto;
+    height: 100%;
+    margin: 0px;
+    background: #FFFFE0;
+    padding: 0px;
+    z-index: 1;
+}
+body header{
+    position: fixed;
+    background: #2A4380;
+    width:  100%;
+    right: 0px;
+    left: 0px;
+    height: 13%;
+    margin: 0px;
+    z-index: 2;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    align-items: center;    
+}
+body header aside{
+    margin-top: 0px;
+    width: 600px;
+}
+body main{
+    color: #A0522D;
+    border: 1px solid black;
+    padding-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-right: 7%;
+    padding-bottom: 7%;
+    padding-left: 7%;
+    margin-bottom: 0px;
+    flex: 1 0 auto;
+}
+.scheme{
+    display: flex;
+    justify-content: center;
+}
+.cpu{
+    position: relative;
+    top: 80%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    background: #41DB00;
+    border-radius: 10px;
+    z-index: 1;
+}
+body main a{
+    color: #FFFFFF;
+}
+strong {
+    color: #2C61A6;
+}
+.strong-email{
+    color: #2C61A6;
+}
+body main .cv{
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF; 
+    height: 100%;
+}
+body main .cl1{
+    display: flex;
+    flex-direction: column;
+    background: #BFA375;
+    padding: 3%;
+    border-radius: 10px;
+}
+body main .cl2{
+    background: #A67628;
+    padding: 3%;
+    border-radius: 10px;
+
+}
+body main .main-content{
+    display: block;
+    flex-direction: row;
+    flex: 1 0 auto;
+}
+
+body header aside ul li{
+    height: 100%;
+    display: inline;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+body header aside ul li a{
+    color: #FFFFFF;
+    display: inline;
+    position: relative;
+    font-size: 120%;
+    text-decoration: none;
+    padding: 0;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+body header aside ul{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+a:visited{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer a{
+    color: #FFFFFF;
+
+}
+
+body header aside ul li a:hover{
+    color:  #A4D8FF;
+    transition: width 0.3s ease-out;
+}
+header h1{
+    vertical-align: baseline;
+    color: #FFFFFF;
+    font-family: Bradley Hand ITC;
+    width: 10%;
+    width: 230px;
+    margin-left: 20%;
+}
+body main .person{
+    display: flex;
+    float: left;
+    flex-direction: column;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    height: 450px;
+    justify-content: space-between
+}
+body main .skills{
+    display: flex;
+    float: right;
+    flex-direction: column;
+    background: #FFFFFF;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 3%;
+    padding-left: 2%;
+    padding-right: 5%;
+    font-family: Bradley Hand ITC;
+    font-size: 200%;
+}
+/*body main h2{
+    margin-left: 2%;
+    font-size: 200%;
+    color: #A0522D;
+}*/
+
+hr{
+    border: 1 px solid black;
+
+}
+footer{
+    color: #FFFFFF;
+    background: #000000;
+    width: auto;
+    height: 100px;
+    position: relative;
+    bottom: 0%;
+    top: 80%;
+    bottom: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    align-items: stretch;
+    flex: 0 0 auto;
+}
+footer aside{
+    flex-grow: 1;
+}
+footer ul li{
+    display: inline;
+    
+}
+footer ul{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width: 1000px) {
+    .avatar{
+        float: none;
+        display: block;
+    }
+    .skills{
+        display: flex;
+        flex-direction: column;
+        margin-right: 5%;
+        justify-content: center;
+        align-items: center;
+    }
+    body main{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 50%;
+    }
+    .person{
+        float: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+@media only screen and (max-width: 850px) {
+    body main .main-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    body header{
+        position: relative;
+        z-index: 1;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        height: 260px;
+        width: 100%;
+    }
+    header .logo{
+        display: flex;
+        justify-content: center;
+    } 
+    header h1{
+        margin-left: 0;
+        width: 230px;
+        display: block;
+    }
+    body header aside{
+        width: 100%;
+    }
+    body main{
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        border: none;
+    }
+    body header aside ul{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    body header aside ul li {
+        text-align: center;
+    }   
+    body header aside ul li a{
+        width: inherit;
+        height: inherit;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .avatar{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    body main .cv{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 500px) {
+        body main{
+            border: 0px;
+            width: 80%;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+        footer aside ul{
+            flex-direction: column;           
+            align-items: center;    
+        }
+    }

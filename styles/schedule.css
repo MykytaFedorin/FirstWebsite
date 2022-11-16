@@ -1,0 +1,13 @@
+body table{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    height: 300px;
+
+}
+body table td, th{
+    border: 1px solid #000000;
+    width: 8%;
+}
+body table tr{
+    width: 100%;
+}
